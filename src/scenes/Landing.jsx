@@ -46,12 +46,12 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           <p className="text-6xl font-playfair z-10 text-center md:text-start">
-            Jane {""}
+            Shubham {""}
             <span
               className="xs:relative  xs:font-semibold -z-20 xs:before:content-brush
-              before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
+              before:absolute before:-left-[40px] before:-top-[120px] before:z-[-1]"
             >
-              Esper
+              Khale
             </span>
           </p>
 
