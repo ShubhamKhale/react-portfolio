@@ -24,12 +24,11 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-            fames odio in at.
+            Here, are some technical skills 
           </p>
         </motion.div>
 
-        <div className="mt-16 md:mt-0">
+        {/* <div className="mt-16 md:mt-0">
           {isAboveLarge ? (
             <div
               className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
@@ -44,7 +43,7 @@ const MySkills = () => {
           ) : (
             <img alt="skills" className="z-10" src="assets/skills-image.png" />
           )}
-        </div>
+        </div> */}
       </div>
 
       {/* SKILLS */}
@@ -58,22 +57,29 @@ const MySkills = () => {
           transition={{ duration: 0.5 }}
           variants={{
             hidden: { opacity: 0, y: 50 },
-            visible: { opacity: 1, y: 0 },
+            visible: { opacity: 1, y: 0 },  
           }}
         >
           <div className="relative h-32">
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">01</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Experience
+                Web Development  
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
+           <ul>
+            <li>Html</li>
+            <li>Css</li>
+            <li>TailwindCSS</li>
+            <li>ChakraUI</li>
+            <li>Javascript</li>
+            <li>React Js</li>
+            <li>Node Js</li>
+            <li>Next Js</li>
+           </ul>
           </p>
         </motion.div>
 
@@ -93,16 +99,19 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">02</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Innovative
+                Database and API's
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Urna, eget pulvinar dolor cursus volutpat dictum odio. Nec ultricies
-            amet in in neque nibh tortor. Libero sed pretium justo nulla blandit
-            nulla amet habitant iaculis. Iaculis in congue vitae sollicitudin
-            faucibus a
+            <ul>
+              <li>MongoDB</li>
+              <li>Firebase</li>
+              <li>Weatherapi</li>
+              <li>News API</li>
+              <li>Rapid API</li>
+            </ul>
           </p>
         </motion.div>
         {/* IMAGINATIVE */}
@@ -121,16 +130,48 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">03</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Imaginative
+                Progamming Language
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Accumsan eu fringilla nisi, eget. Vitae, eget ut id proin arcu in
-            curabitur. Lectus libero, egestas enim aliquam quis felis amet.
-            Sagittis, amet netus fringilla netus lobortis odio sed platea.
-            Bibendum.
+            <ul>
+              <li>C</li>
+              <li>C++</li>
+              <li>Java</li>
+              <li>Python</li>
+            </ul>
+          </p>
+        </motion.div>
+        <motion.div
+          className="md:w-1/3 mt-10"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ delay: 0.4, duration: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, y: 50 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        >
+          <div className="relative h-32">
+            <div className="z-10">
+              <p className="font-playfair font-semibold text-5xl">04</p>
+              <p className="font-playfair font-semibold text-3xl mt-3">
+                 Tools
+              </p>
+            </div>
+            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
+          </div>
+          <p className="mt-5">
+            <ul>
+              <li>Github</li>
+              <li>Postman</li>
+              <li>insomnia</li>
+              <li>VScode</li>
+              <li>Pycharm</li>
+            </ul>
           </p>
         </motion.div>
       </div>
