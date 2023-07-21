@@ -86,8 +86,8 @@ const Projects = () => {
           <Project title="project 2"/>
 
           {/* ROW 2 */}  
-          <Project title="project 3" projectUrl="https://text-help.onrender.com" />
-          <Project title="project 4" />
+          <Project title="project 3" />
+          <Project title="project 4" projectUrl="https://text-help.onrender.com"/>
           <Project title="project 5" projectUrl="https://youtube-clone-8l8t.onrender.com" />
 
           
